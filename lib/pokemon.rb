@@ -15,4 +15,5 @@ class Pokemon
 
   def self.find(id)
     db.execute("SELECT * FROM pokemon WHERE id = ?")
+  end 
 end
